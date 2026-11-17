@@ -1,0 +1,9 @@
+planner_node:
+  ros__parameters:
+    global_frame: sim_world
+    lidar_to_axle: 1.3
+    goal_tolerance: 0.25
+    obstacle_threshold: 99
+    unknown_cost: 3.0
+    cost_weight: 4.0
+    goal_timeout: 180.0

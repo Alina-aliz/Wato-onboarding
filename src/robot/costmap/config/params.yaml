@@ -1,0 +1,6 @@
+costmap_node:
+  ros__parameters:
+    resolution: 0.1
+    size: 42.0
+    robot_radius: 1.85
+    inflation_radius: 2.5

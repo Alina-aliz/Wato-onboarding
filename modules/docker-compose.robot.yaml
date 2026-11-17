@@ -1,0 +1,20 @@
+services:
+  robot: 
+    build: &robot_build
+      context: ..
+      dockerfile: docker/robot/robot.Dockerfile
+      args:
+        BASE_IMAGE: ${BASE_IMAGE_OVERRIDE-}
+    image: "${ROBOT_IMAGE:?}:${TAG}"
+    profiles:
+      - deploy
+    command: /bin/bash -c "ros2 launch bringup_robot robot.launch.py"
+  
+  robot_dev:
+    build: *robot_build
+    image: "${ROBOT_IMAGE:?}:dev_${TAG}"
+    command: tail -F anything
+    profiles:
+      - develop
+    volumes:
+      - ${MONO_DIR}/src/robot:/root/ament_ws/src

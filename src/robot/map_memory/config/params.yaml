@@ -1,0 +1,5 @@
+map_memory_node:
+  ros__parameters:
+    global_frame: sim_world
+    resolution: 0.2
+    cells: 300

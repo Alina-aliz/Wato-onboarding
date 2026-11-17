@@ -1,0 +1,12 @@
+.env
+__pycache__
+.vscode/
+
+watod-config.local.sh
+
+# Duplicate starter extracted inside the project; not part of the source tree.
+/wato_asd_training-main/
+build/
+install/
+log/
+*.pyc

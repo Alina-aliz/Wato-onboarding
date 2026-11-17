@@ -1,0 +1,7 @@
+.git
+wato_asd_training-main
+**/__pycache__
+**/*.pyc
+build
+install
+log
