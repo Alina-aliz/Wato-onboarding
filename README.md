@@ -1,5 +1,8 @@
 # WATonomous ASD Admissions Assignment
 
+##Demo Video
+https://youtu.be/k1j8tp_qUvk
+
 ## Implemented navigation
 
 This implementation adds lidar costmaps, global map memory, A* planning, and
