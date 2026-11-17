@@ -1,6 +1,6 @@
 # WATonomous ASD Admissions Assignment
 
-##Demo Video
+## Demo Video
 https://youtu.be/k1j8tp_qUvk
 
 ## Implemented navigation
